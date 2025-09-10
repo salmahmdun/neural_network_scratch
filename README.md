@@ -19,7 +19,7 @@ ________________________________________________________________________________
 
 ## PROJECT'S DEMO :
 - Shows a simple run for the neural network.
-![Demo's GIF](Assets/demo.gif)
+![Demo's GIF](Assets/DEMO.gif)
 [Click here to watch the full video](Assets/demo.mp4)
 
 ______________________________________________________________________________________________________________
@@ -224,7 +224,6 @@ neural_network_project/
    └── numerical_features
 
 ```
-
 ______________________________________________________________________________________________________________
 
 ## REFERENCES :
