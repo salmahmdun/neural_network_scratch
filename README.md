@@ -208,7 +208,7 @@ ________________________________________________________________________________
 
 ## PROJECT'S DEMO :
 - Shows a simple run for the neural network.
-<video src="demo.mp4" controls width="600"></video>
+<video src="Assets/demo.mp4" controls width="600"></video>
 
 ______________________________________________________________________________________________________________
 ## FILE STRUCTURE :
