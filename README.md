@@ -1,8 +1,8 @@
 # ARTIFICIAL NEURAL NETWORK (ANN) IMPLEMENTED FROM SCRATCH :
 
-**Author:** SALMA HAMDUN
-**Date:** 8/9/2025
-**Version:** 1.0
+**Author:** SALMA HAMDUN <br>
+**Date:** 8/9/2025  <br>
+**Version:** 1.0   <br>
 
 ______________________________________________________________________________________________________________
 
@@ -14,6 +14,13 @@ This project implements a **3-layer Artificial Neural Network (ANN) from scratch
 - Dropout for regularization
 - Mini-batch gradient descent with early stopping
 - Full training, validation, and testing workflow
+
+______________________________________________________________________________________________________________
+
+## PROJECT'S DEMO :
+- Shows a simple run for the neural network.
+![Demo's GIF](Assets/demo.gif)
+[Click here to watch the full video](Assets/demo.mp4)
 
 ______________________________________________________________________________________________________________
 
@@ -206,12 +213,6 @@ ________________________________________________________________________________
 
 ______________________________________________________________________________________________________________
 
-## PROJECT'S DEMO :
-- Shows a simple run for the neural network.
-![Demo GIF](Assets/demo.gif)
-[Click here to watch the full video](Assets/demo.mp4)
-
-______________________________________________________________________________________________________________
 ## FILE STRUCTURE :
 ```
 neural_network_project/
