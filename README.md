@@ -7,7 +7,7 @@
 ______________________________________________________________________________________________________________
 
 ## PROJECT OVERVIEW : 
-This project implements a **3-layer Artificial Neural Network (ANN) from scratch** using **NumPy**, without any high-level deep learning libraries. The network is designed for **binary classification tasks**,demonstrating:
+This project predicts customer churn (whether a customer will leave the bank or not) using a neural network built from scratch and a Gradio web app for interactive experimentation , it implements a **3-layer Artificial Neural Network (ANN) from scratch** using **NumPy**, without any high-level deep learning libraries. The network is designed for **binary classification tasks**,demonstrating:
 
 - Forward propagation with ReLU and Sigmoid activations
 - Backpropagation with L2 regularization
@@ -18,9 +18,43 @@ This project implements a **3-layer Artificial Neural Network (ANN) from scratch
 ______________________________________________________________________________________________________________
 
 ## PROJECT'S DEMO :
-- Shows a simple run for the neural network.
-![Demo's GIF](Assets/DEMO.gif)
+- It's an interactive Gradio app for training and testing the neural network model on a customer churn prediction task so this DEMO shows a simple run for the neural network based on a customer features. 
+- In this DEMO the client can control training parameters : <br> 
+                       • **learning rate:** Controls how big each step is during optimization (0.001 → 1.0)
+                       • **Epochs:** Number of full passes over the training dataset (1 → 2000)
+                       • **hidden units:** Number of neurons in the hidden layer (1 → 64)
+- Also , he can control all the **features (inputs) :** <br>
+                       •**CreditScore** → Customer’s credit score (as example: 950)
+                       •**Geography** → Encoded country (1,2,3)
+                       •**Gender** → Encoded gender (0=female , 1=male)
+                       •**Age** → Customer’s age
+                       •**Tenure** → How many years the customer has been with the bank
+                       •**Balance** → Bank account balance
+                       •**NumOfProducts** → Number of bank products
+                       •**HasCrCard** → (1 : has a credit card , 0 : don't has credit card)
+                       •**IsActiveMember** → (1 : active , 0 : not active)
+                       •**EstimatedSalary** → Customer’s estimated yearly salary
+*(so he can fill them manually and tap submit button & then the magic happens)*
+
+- After submition , the loss curve will appear on the top of prediction , & **prediction will be binary as we hope (0/1)** : 0 means customer will not churn & 1 means he will.
+- *The Gradio will automatically open a new browser tab with the app after running the cell.*
+
+- Here's an image which shows how it works.
+<img src="Assets/demo.png" alt="demo's run for neural network" width="500"/>
+
+- And here is an option to download an mp4 video to see how to run the gradio of this neural network
 [Click here to watch the full video](Assets/demo.mp4)
+
+______________________________________________________________________________________________________________
+
+## 📊 MODEL ACCURACY :
+- Training , validation and test accuracy are very close , this means that the model generalizes well without serious overfitting and with good covergence for loss behavior because of early stopping which prevent overfitting by stopping training automatically when the risk of overfit starts.
+
+- It has ~87% testing accuracy , so the model can make strong and good predictions about CHurns. 
+
+- **Training Accuracy:** 86.27%
+- **Validation Accuracy:** 87.14%
+- **Test Accuracy:** 87.07%
 
 ______________________________________________________________________________________________________________
 
